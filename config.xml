@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>  
+    <recruiter>  
+        <url>https://employer.vietnamworks.com/</url> 
+        <acc>John</acc> 
+        <pw>Doe</pw>   
+    </recruiter>  
+      
+    <recruiter>  
+        <url>https://employer.vietnamworks.com/v2/login</url> 
+        <acc>Thuy</acc> 
+        <pw>12345</pw>  
+    </recruiter>   
+</config>  
