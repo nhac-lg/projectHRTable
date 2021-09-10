@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Candidate_CV {
 	static int count = 0;
+	static By listResume = By.xpath("//div[@class='list-resume']/div/div/div/div[2]");
 	
 	public static void all_print(int n) throws Exception {
 		do {
 			WebDriverWait wait = new WebDriverWait(Information.driver, 10);
-			List<WebElement> list = Information.driver.findElements(By.xpath("//div[@class='list-resume']/div/div/div/div[2]"));
-			wait.until(ExpectedConditions
-					.visibilityOfAllElementsLocatedBy(By.xpath("//div[@class='list-resume']/div/div/div/div[2]")));
+			List<WebElement> list = Information.driver.findElements(listResume);
+			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(listResume));
 			for (int j = 0; j < list.size(); j++) {
 				if (count < n) {
 					System.out.println("CV " + count + "--------------------------------------------");
