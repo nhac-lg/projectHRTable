@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 public class Information {
 	static WebDriver driver=null;
 	static String VNword_url = "https://employer.vietnamworks.com/v2/login";
-	static String username="recruitment@logigear.com";
-	static String pass="stemsearching";
+	static String username="";
+	static String pass="";
 	static String account;
 	static String password;
 	static String url;
