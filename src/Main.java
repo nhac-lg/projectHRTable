@@ -1,6 +1,6 @@
-import TEST.Information;
-import TEST.List_Recruiter;
-import TEST.Working;
+import VNWORK.Information;
+import VNWORK.List_Recruiter;
+import VNWORK.Working;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
@@ -9,7 +9,7 @@ public class Main {
 		List_Recruiter.Read();
 		Information.change(find_url);
 		work.Navigate();
-		//work.Do();
+		work.Do();
 		//work.Close();
 	}
 }

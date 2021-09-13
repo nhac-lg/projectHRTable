@@ -1,4 +1,4 @@
-package TEST;
+package VNWORK;
 
 public class Candidate {
 	String name, position, company, year, salary, location;

@@ -1,4 +1,4 @@
-package TEST;
+package VNWORK;
 
 public class Recruiter {
 	String url, acc, pw;
